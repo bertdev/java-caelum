@@ -1,4 +1,4 @@
-class ex1 {
+public class ex1 {
   public static void main(String[] args) {
 //Na empresa onde trabalhamos, há tabelas com o quanto foi gasto em cada mês. Para fechar o
 //balanço do primeiro trimestre, precisamos somar o gasto total. Sabendo que, em Janeiro, foram
