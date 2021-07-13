@@ -7,7 +7,13 @@ public class programa {
     minhaconta.saldo = 2000.00;
 
     System.out.println("Saldo atual: " + minhaconta.saldo);
-    minhaconta.saca(300);
+    boolean consegui = minhaconta.saca(300);
+    if (consegui) {
+      System.out.println("Consegui sacar!");
+    } else {
+      System.out.println("Não consegui sacar!");
+    }
+
     minhaconta.deposita(500);
     System.out.println("Saldo atual: " + minhaconta.saldo);
   }
