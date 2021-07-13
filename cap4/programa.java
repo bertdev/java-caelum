@@ -6,15 +6,10 @@ public class programa {
     minhaconta.titular = "herbert";
     minhaconta.saldo = 2000.00;
 
-    System.out.println("Saldo atual: " + minhaconta.saldo);
-    boolean consegui = minhaconta.saca(300);
-    if (consegui) {
-      System.out.println("Consegui sacar!");
-    } else {
-      System.out.println("Não consegui sacar!");
-    }
+    Conta segundaconta = minhaconta;
 
-    minhaconta.deposita(500);
-    System.out.println("Saldo atual: " + minhaconta.saldo);
+    if (minhaconta == segundaconta) {
+      System.out.println("Contas iguais!");
+    }
   }
 }
