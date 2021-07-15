@@ -1,5 +1,5 @@
 public class Conta {
-  Cliente titular;
+  Cliente titular = new Cliente();
   String agencia;
   String dataAbertura;
   int numero;
